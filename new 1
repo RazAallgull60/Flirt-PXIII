@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Flirt à l'USPN</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS.css">
+		<link rel="icon" href="MonIcone.ico">
+	</head>
+	<body>
+		<h1>
+		<img src="MonIcone.svg" alt="Mon icone">
+		Flirt à l'USPN</h1>
+		<form method="post" action="FAP13.html" enctype="multipart/form-data">
+			<div class="creation">
+			
+				<div class="gauche">
+					<p>
+					Créer un compte<br>
+					<input type="text" placeholder="Login"><br>
+					<input type="text" placeholder="Pseudo"><br>
+					<input type="password" placeholder="Mot de passe"><br>
+					<input type="password" placeholder="Confirmer le mot de passe"><br>
+					Je suis en <br>
+					<select>
+						<option selected>IUT de Villetaneuse</option>
+						<option>IUT de Saint-Denis</option>
+						<option>IUT de Bobigny</option>
+						<option>SMBH</option>
+						<option>SEG</option>
+						<option>LLSHS</option>
+						<option>DSPS</option>
+						<option>Communication</option>
+						<option>Institut Galilée</option>
+					</select>
+					<br>
+					Photo<br>
+					<input type="file" id="MaPhoto" accept=".jpg, .png, .jpeg, .svg" name="Bla">
+					</p>
+				</div>
+				
+				<div class="droite">
+					<div class="sexe">
+						Je suis  : 
+							<label for="MonSexeH"><input type="radio" name="MonSexe" id="MonSexeH"> un homme</label>
+							<label for="MonSexeF"><input type="radio" name="MonSexe" id="MonSexeF"> une femme</label>
+							<label for="MonSexeA"><input type="radio" name="MonSexe" id="MonSexeA"> autre</label>
+						<br>
+						Je cherche  : 
+							<label for="TonSexeH"><input type="radio" name="TonSexe" id="TonSexeH"> un homme</label>
+							<label for="TonSexeF"><input type="radio" name="TonSexe" id="TonSexeF"> une femme</label>
+							<label for="TonSexeA"><input type="radio" name="TonSexe" id="TonSexeA"> autre</label>
+						<br>
+					</div>
+					<div class="description">
+						<hr>
+						<p>Moi</p>
+						<div class="civilité">
+						Ma date de naissance<br> 
+						<input type="date" value="2000-01-01"><br>
+						Ma taille<br> 
+						<input type="number"><br>
+						Mon poids <br>
+						<input type="number"><br>
+						</div>
+						<div class="CentreInt">
+							Mes centres d'interets :<br>
+							<label><input type="checkbox"> Cinéma</label>
+							<label><input type="checkbox"> Jeux vidéo</label><br>
+							<label><input type="checkbox"> Magazine</label>
+							<label><input type="checkbox"> Roman</label><br>
+							<label><input type="checkbox"> Sport</label>
+							<label><input type="checkbox"> Cheval</label><br>
+							<label><input type="checkbox"> Randoné</label>
+							<label><input type="checkbox"> Accordéon</label><br>
+							<label><input type="checkbox"> Musique</label>
+							<label><input type="checkbox"> Manger</label><br>
+							<label><input type="checkbox"> Dormir</label>
+							<label><input type="checkbox"> Vivre</label>
+						</div>
+					</div>
+				</div>
+				<div class="Envoyer">
+					<input type="image" src="Envoyer.svg" alt="Envoyer les données" title="Envoyer les données" width="100px">
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
